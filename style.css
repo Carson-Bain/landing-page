@@ -100,7 +100,6 @@ body {
 }
 
 .info-container {
-    background-color: aqua;
     width: 100%;
     height: 500px;
     }
@@ -161,8 +160,8 @@ body {
     background-color: #E5E7EB;
     width: 100%;
     height: 500px;
-    border-style: solid;
-    border-color: red;
+    /* border-style: solid;
+    border-color: red; */
 }
 
 .quote {
@@ -170,16 +169,16 @@ body {
     font-weight: 200;
     font-style: italic;
     color: #1F2937 ;
-    border-style: solid;
-    border-color: red;
+    /* border-style: solid;
+    border-color: red; */
     width: 780px;
 }
 
 .author {
     display: flex;
     justify-content: flex-end;
-    border-style: solid;
-    border-color: red;
+    /* border-style: solid;
+    border-color: red; */
     font-weight: bolder;
     font-size: 24px;
     width: 780px;
@@ -189,13 +188,70 @@ body {
     margin-right: 40px;
 }
 
-
-
-
 .signup-container {
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 275px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 1100px;
+    height: 150px;
+}
+
+.left {
+    /* border-style: solid;
+    border-color: purple; */
+    width: 525px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.action {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.sub-action {
+    font-size: 18px;
+    color: rgba(201, 196, 196, 0.908);
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-style: solid;
+    border-color: green; */
+    width: 300px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.actual-button {
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 8px 35px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.actual-button:hover {
+    background-color: #72a5f7;
+    cursor: pointer;
 }
 
 .footer {
