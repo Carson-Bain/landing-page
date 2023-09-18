@@ -83,25 +83,82 @@ body {
     margin-top: 15px;
 }
 
-.image-container {
-    margin-right: 10px;
-    color: #E5E7EB;
+.button:hover {
+    background-color: #72a5f7;
+    cursor: pointer;
 }
 
-
-
-
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #E5E7EB;
+    background-color: gray;
+    width: 450px;
+    height: 175px;
+}
 
 .info-container {
     background-color: aqua;
     width: 100%;
-    height: 350px;
+    height: 500px;
+    }
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    height: 100px;
 }
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 75%;
+    /* border: solid; */
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border-style: solid;
+    border-color: purple; */
+    width: 180px;
+    height: fit-content;
+}
+
+.box {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 175px;
+    width: 175px;
+    align-self: center;
+
+}
+
+.sub-text {
+    align-self: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
 
 .quote-container {
     background-color: #E5E7EB;
     width: 100%;
-    height: 350px;
+    height: 200px;
 }
 
 .signup-container {
@@ -115,4 +172,9 @@ body {
     width: 100%;
     height: 100px;
     margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
