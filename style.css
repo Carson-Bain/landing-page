@@ -37,6 +37,12 @@ body {
     color: #E5E7EB;
 }
 
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 .header-body {
     background-color: #1F2937;
     width: 100%;
