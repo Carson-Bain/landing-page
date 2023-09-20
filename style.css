@@ -109,7 +109,6 @@ a:hover {
     align-items: center;
     margin-right: 10px;
     color: #E5E7EB;
-    /* background-color: gray; */
     width: 475px;
     height: 210px;
     margin-right: 200px;
@@ -181,7 +180,6 @@ a:hover {
     justify-content: flex-end;
     align-items: flex-end;
     flex-wrap: wrap;
-    /* background-color: #E5E7EB; */
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(Images/Studious\ Hasbulla.jpeg);
     background-repeat: no-repeat;
     background-position: center;
