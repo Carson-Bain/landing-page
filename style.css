@@ -99,6 +99,10 @@ a:hover {
     cursor: pointer;
 }
 
+.up {
+    text-decoration: none !important;
+}
+
 .image-container {
     display: flex;
     justify-content: center;
